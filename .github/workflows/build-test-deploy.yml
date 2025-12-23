@@ -66,6 +66,6 @@ jobs:
           path: './out'
       - name: deploy
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
         with:
           enablement: true
